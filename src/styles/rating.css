@@ -1,0 +1,90 @@
+.Star_rating__WroDB {
+  display: block;
+  font-size: 1.25rem;
+  font-family: Times;
+  line-height: 2rem;
+}
+@supports (display: flow-root) {
+  .Star_rating__WroDB:before {
+    background-color: var(--brand-white-dark);
+    content: "★★★★★";
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}
+.Star_ratingText__2MYXM {
+  display: inline-block;
+}
+@supports (display: flow-root) {
+  .Star_ratingTestStar__3C6kS.Star_rating__WroDB:before {
+    background: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(var(--new-gold-light)),
+      to(var(--brand-white-dark))
+    );
+    background: -webkit-linear-gradient(
+      left,
+      var(--new-gold-light) var(--rating, 0),
+      var(--brand-white-dark) var(--rating, 0) 100%
+    );
+    background: linear-gradient(
+      to right,
+      var(--new-gold-light) var(--rating, 0),
+      var(--brand-white-dark) var(--rating, 0) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+  }
+  .Star_ratingTestStar__3C6kS.Star_rating__WroDB .Star_ratingInfo__1igKL {
+    display: none;
+  }
+}
+.Star_ratingArea__-YeoN {
+  width: 6rem;
+  margin-top: 0.25rem;
+}
+.Star_columnStack__1lHbT {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-direction: column;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  margin-inline: auto;
+  align-items: flex-start;
+}
+@media (min-width: 48rem) {
+  .Star_columnStack__1lHbT {
+    margin-inline: 0;
+  }
+}
+.Star_rowFlex__ujZrv {
+  display: -webkit-flex;
+  display: -moz-box;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  align-items: center;
+  width: 100%;
+}
+.Star_rowFlex__ujZrv span {
+  display: block;
+}
+.Star_fullWidth__35KYJ .Star_icon__1fnO_ {
+  margin: 0;
+  width: 100%;
+}
+.Star_fullWidth__35KYJ {
+  width: 100%;
+}
+.Star_ratingArea__-YeoN span {
+  color: var(--new-gold-dark);
+  font-size: 0.75rem;
+}

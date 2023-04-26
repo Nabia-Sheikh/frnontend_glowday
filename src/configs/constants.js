@@ -1,0 +1,2 @@
+export const MAP_KEY =
+  "pk.eyJ1IjoiZG9tYWluaG9zdGluZyIsImEiOiJjbGNhdXd6cm0waXpqM3hvd3hlOWNrOTBqIn0.3MywM96j5UgbShz9vDtqMw"

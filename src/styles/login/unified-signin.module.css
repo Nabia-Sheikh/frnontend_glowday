@@ -1,0 +1,9 @@
+/** Unified Signin only Page Styles **/
+.unified_container .row .panel-default #api .localAccount .create p {
+  margin-top: -3rem;
+  visibility: hidden;
+  margin-bottom: 0px;
+}
+.unified_container .row .panel-default #api .localAccount .create #createAccount {
+  margin-top: -3rem;
+}

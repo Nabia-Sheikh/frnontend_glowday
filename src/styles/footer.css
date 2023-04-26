@@ -1,0 +1,16 @@
+.mobileFooter h2 {
+  position: relative;
+  cursor: pointer;
+}
+
+.mobileFooter h2::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: rotate(45deg);
+  width: 1rem;
+  height: 1rem;
+  transition: all 0.4s;
+  background: url(../static/img/icons/add.svg) 50% / cover no-repeat;
+}

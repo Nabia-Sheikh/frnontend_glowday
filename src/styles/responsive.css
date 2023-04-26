@@ -1,0 +1,226 @@
+.fresnel-container {
+  margin: 0;
+  padding: 0;
+}
+
+@media not all and (min-width: 0px) and (max-width: 424px) {
+  .fresnel-at-xs {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) and (max-width: 767px) {
+  .fresnel-at-sm {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) and (max-width: 1023px) {
+  .fresnel-at-md {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1024px) and (max-width: 1199px) {
+  .fresnel-at-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1200px) and (max-width: 1439px) {
+  .fresnel-at-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1440px) {
+  .fresnel-at-d {
+    display: none !important;
+  }
+}
+
+@media not all and (max-width: 424px) {
+  .fresnel-lessThan-sm {
+    display: none !important;
+  }
+}
+
+@media not all and (max-width: 767px) {
+  .fresnel-lessThan-md {
+    display: none !important;
+  }
+}
+
+@media not all and (max-width: 1023px) {
+  .fresnel-lessThan-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (max-width: 1199px) {
+  .fresnel-lessThan-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (max-width: 1439px) {
+  .fresnel-lessThan-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) {
+  .fresnel-greaterThan-xs {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .fresnel-greaterThan-sm {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1024px) {
+  .fresnel-greaterThan-md {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1200px) {
+  .fresnel-greaterThan-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1440px) {
+  .fresnel-greaterThan-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) {
+  .fresnel-greaterThanOrEqual-xs {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) {
+  .fresnel-greaterThanOrEqual-sm {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) {
+  .fresnel-greaterThanOrEqual-md {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1024px) {
+  .fresnel-greaterThanOrEqual-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1200px) {
+  .fresnel-greaterThanOrEqual-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1440px) {
+  .fresnel-greaterThanOrEqual-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) and (max-width: 424px) {
+  .fresnel-between-xs-sm {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) and (max-width: 767px) {
+  .fresnel-between-xs-md {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) and (max-width: 1023px) {
+  .fresnel-between-xs-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) and (max-width: 1199px) {
+  .fresnel-between-xs-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 0px) and (max-width: 1439px) {
+  .fresnel-between-xs-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) and (max-width: 767px) {
+  .fresnel-between-sm-md {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) and (max-width: 1023px) {
+  .fresnel-between-sm-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) and (max-width: 1199px) {
+  .fresnel-between-sm-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 425px) and (max-width: 1439px) {
+  .fresnel-between-sm-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) and (max-width: 1023px) {
+  .fresnel-between-md-bigmd {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) and (max-width: 1199px) {
+  .fresnel-between-md-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 768px) and (max-width: 1439px) {
+  .fresnel-between-md-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1024px) and (max-width: 1199px) {
+  .fresnel-between-bigmd-lg {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1024px) and (max-width: 1439px) {
+  .fresnel-between-bigmd-d {
+    display: none !important;
+  }
+}
+
+@media not all and (min-width: 1200px) and (max-width: 1439px) {
+  .fresnel-between-lg-d {
+    display: none !important;
+  }
+}
